@@ -16,7 +16,7 @@ public class seleniumDropdown {
 		
 		WebElement favoriteOne=driver.findElement(By.className("ui-selectonemenu"));
 		Select select =new Select(favoriteOne);
-		select.selectByIndex(2);
+		select.selectByIndex(1);
 		Thread.sleep(3000);
 		select.selectByVisibleText("Puppeteer");
 		Thread.sleep(3000);
