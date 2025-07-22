@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-07-17T16:42:31 IST" name="Default suite" finished-at="2025-07-17T16:42:44 IST" duration-ms="13087">
+    <groups>
+    </groups>
+    <test started-at="2025-07-17T16:42:31 IST" name="Default test" finished-at="2025-07-17T16:42:44 IST" duration-ms="13087">
+      <class name="testNG.TestSuite">
+        <test-method signature="openBing()[pri:0, instance:testNG.TestSuite@3c41ed1d]" started-at="2025-07-17T16:42:31 IST" name="openBing" finished-at="2025-07-17T16:42:36 IST" duration-ms="4853" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBing -->
+        <test-method signature="openFireFox()[pri:0, instance:testNG.TestSuite@3c41ed1d]" started-at="2025-07-17T16:42:36 IST" name="openFireFox" finished-at="2025-07-17T16:42:40 IST" duration-ms="4154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openFireFox -->
+        <test-method signature="openGoogle()[pri:0, instance:testNG.TestSuite@3c41ed1d]" started-at="2025-07-17T16:42:40 IST" name="openGoogle" finished-at="2025-07-17T16:42:44 IST" duration-ms="4009" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openGoogle -->
+      </class> <!-- testNG.TestSuite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
