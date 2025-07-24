@@ -20,6 +20,11 @@ public class seleniumAlert {
 		Alert alert=driver.switchTo().alert();
 	//	Thread.sleep(3000);
 		alert.accept();
+
+
+
+
+    
 		
         WebElement confirmButton=driver.findElement(By.id("j_idt88:j_idt93"));
         confirmButton.click();

@@ -20,12 +20,19 @@ public class seleniumDropdown {
 		Thread.sleep(3000);
 		select.selectByVisibleText("Puppeteer");
 		Thread.sleep(3000);
-		
-		
-		
-	
-		
-		
+
+		WebElement favoriteTwo=driver.findElement(By.className("ui-selectonemenu"));
+		Select select2 =new Select(favoriteTwo);
+		select2.selectByIndex(1);
+		Thread.sleep(3000);
+		select2.selectByVisibleText("Puppeteer");
+
+		WebElement favoriteThree=driver.findElement(By.className("ui-selectonemenu"));
+		Select select3 =new Select(favoriteThree);
+		select3.selectByIndex(1);
+		Thread.sleep(3000);
+		select3.selectByVisibleText("Puppeteer");
+		Thread.sleep(3000);	
 
 	}
 
